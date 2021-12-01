@@ -1,0 +1,92 @@
+[{	
+	"tests":{
+		"id":"test1",
+		"testName":"lessCaractereUsername",
+		"username":"Trac",
+		"email":"TraceLabsTest@gmail.com",
+		"password":"Test123",
+		"confirmPassword":"Test123"
+	}
+
+},
+{
+	"tests":{
+		"id":"test2",
+		"testName":"especialUserNameCaracteres",
+		"username":"%ˆ&$*&%$ %$%$",
+		"email":"TraceLabsTest@gmail.com",
+		"password":"Test123",
+		"confirmPassword":"Test123"
+		}
+},
+{
+	"tests":{
+		"id":"test3",
+		"testName":"incorrectEmail",
+		"username":"TraceLabsUserQA",
+		"email":"TraceLabsTestgmail.com",
+		"password":"Test123",
+		"confirmPassword":"Test123"
+	}
+},
+{
+	"tests":{
+		"id":"test4",
+		"testName":"lessCaracteresPassword",
+		"username":"TraceLabsUserQA",
+		"email":"TraceLabsTest@gmail.com",
+		"password":"Test",
+		"confirmPassword":"Test"
+	} 
+},
+{
+	"tests":{
+		"id":"test5",
+		"testName":"differentPasswords",
+		"username":"TraceLabsUserQA",
+		"email":"TraceLabsTest@gmail.com",
+		"password":"Test1",
+		"confirmPassword":"Test12"
+	}
+},
+{
+	"tests":{
+		"id":"test6",
+		"testName":"passwordWeak",
+		"username":"TraceLabsUserQA",
+		"email":"TraceLabsTest@gmail.com",
+		"password":"Test1",
+		"confirmPassword":"Test1"
+	}
+},
+{
+	"tests":{
+		"id":"test7",
+		"testName":"passwordMedium",
+		"username":"TraceLabsUserQA",
+		"email":"TraceLabsTest@gmail.com",
+		"password":"Test1234",
+		"confirmPassword":"Test1234"
+	}
+},
+{
+	"tests":{
+		"id":"test8",
+		"testName":"passwordStrong",
+		"username":"TraceLabsUserQA",
+		"email":"TraceLabsTest@gmail.com",
+		"password":"Test123.4",
+		"confirmPassword":"Test123.4"
+	}
+},
+{
+	"tests":{
+		"id":"test77",
+		"testName":"CreateAccount",
+		"username":"TraceLabsUserQA",
+		"email":"TraceLabsTest@gmail.com",
+		"password":"Test123",
+		"confirmPassword":"Test123"
+	}
+}
+]
